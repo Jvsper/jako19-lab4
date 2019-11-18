@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "ejs": "^2.7.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
   },
   "devDependencies": {},
   "scripts": {
