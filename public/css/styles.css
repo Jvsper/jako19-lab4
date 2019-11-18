@@ -7,3 +7,8 @@ img {
 	width :30%;
 	height : auto;
 }
+
+
+hr {
+	border: 1px solid white;
+}

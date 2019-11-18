@@ -15,16 +15,21 @@ app.get("/mercury", function (req,res){
 	res.render("mercury.html");
 })
 
-app.get("/", function (req,res){
-	res.send("This will be Venus web page!");
+app.get("/venus", function (req,res){
+	res.render("venus.html");
 })
 
-/*
+app.get("/earth", function (req,res){
+	res.render("earth.html");
+})
+
 app.listen(process.env.PORT, process.env.IP, function(){
 	console.log("Express server is now running");
 })
-*/
 
+
+/*
 app.listen(port, function(){
 	console.log("Express server is running on port 3000");
 })
+*/
