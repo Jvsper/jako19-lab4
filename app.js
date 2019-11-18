@@ -4,6 +4,7 @@ const port = 3000;
 
 app.engine('html', require('ejs').renderFile);
 app.use(express.static("public"));
+
 //routes
 
 app.get("/", function (req,res){
@@ -19,5 +20,5 @@ app.get("/", function (req,res){
 })
 
 app.listen(process.env.PORT, process.env.IP, function(){
-	console.log("Express server is now running.");
+	console.log("Express server is now running");
 })
