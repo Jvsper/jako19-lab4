@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.engine('html', require('ejs').renderFile);
-app.use(express.static("public"));
+app.use(express.static('public'));
 
 //routes
 
@@ -19,6 +19,12 @@ app.get("/", function (req,res){
 	res.send("This will be Venus web page!");
 })
 
+/*
 app.listen(process.env.PORT, process.env.IP, function(){
 	console.log("Express server is now running");
+})
+*/
+
+app.listen(port, function(){
+	console.log("Express server is running on port 3000");
 })
